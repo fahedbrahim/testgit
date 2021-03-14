@@ -14,4 +14,8 @@ router.get ('/fahed', (req,res)=>{
   res.send("i'm fahed")
 })
 
+router.get ('/raed', (req,res)=>{
+  res.send("i'm raed")
+})
+
 module.exports = router;
