@@ -14,4 +14,8 @@ router.get('/pi', function (req, res, next) {
   res.send('this is pi');
 });
 
+router.get('/fahed', (req, res) => {
+  res.send("i'm fahed");
+});
+
 module.exports = router;
