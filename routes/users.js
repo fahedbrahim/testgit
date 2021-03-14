@@ -18,4 +18,8 @@ router.get('/fahed', (req, res) => {
   res.send("i'm fahed");
 });
 
+router.get('/alii', (req, res) => {
+  res.send("i'm alii");
+});
+
 module.exports = router;
