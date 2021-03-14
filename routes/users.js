@@ -30,4 +30,8 @@ router.get('/raed', (req, res) => {
   res.send("i'm raed");
 });
 
+router.get ('/yessine', (req,res)=>{
+  res.send("i'm yessine")
+})
+
 module.exports = router;
