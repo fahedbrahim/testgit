@@ -30,12 +30,18 @@ router.get('/raed', (req, res) => {
   res.send("i'm raed");
 });
 
-router.get ('/yessine', (req,res)=>{
-  res.send("i'm yessine")
-})
+router.get('/yessine', (req, res) => {
+  res.send("i'm yessine");
+});
 
+<<<<<<< HEAD
 router.get ('/sahebtokabri', (req,res)=>{
   res.send("i'm sahebtokabri")
 })
 
+=======
+router.get('/tokbri', (req, res) => {
+  res.send("i'm toka");
+});
+>>>>>>> master
 module.exports = router;
