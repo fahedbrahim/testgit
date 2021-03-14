@@ -22,4 +22,8 @@ router.get('/alii', (req, res) => {
   res.send("i'm alii");
 });
 
+router.get('/salem', (req, res) => {
+  res.send("i'm salem");
+});
+
 module.exports = router;
